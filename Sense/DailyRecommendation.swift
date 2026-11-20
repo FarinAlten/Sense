@@ -13,20 +13,20 @@ struct DailyRecommendation: View {
 
     private var title: String {
         switch selectedFeeling {
-        case 0: "Nutze deine Energie."
-        case 1: "Bleib in deinem Rhythmus."
-        case 3: "Geh es heute ruhig an."
-        case 4: "Gönn dir echte Erholung."
+        case 4: "Nutze deine Energie."
+        case 3: "Bleib in deinem Rhythmus."
+        case 1: "Geh es heute ruhig an."
+        case 0: "Gönn dir echte Erholung."
         default: "Ein guter Tag für Bewegung."
         }
     }
 
     private var bodyText: String {
         switch selectedFeeling {
-        case 0: "Dein Schlaf war solide und du fühlst dich leicht. Eine aktive Einheit passt heute gut."
-        case 1: "Deine Erholung liegt im persönlichen Bereich. Eine ausgewogene Mischung aus Aktivität und Pausen passt gut."
-        case 3: "Deine Nacht war ordentlich, dein Gefühl braucht etwas mehr Raum. Sanfte Bewegung reicht heute aus."
-        case 4: "Hör auf deinen Körper. Halte den Tag leicht und setze Erholung an erste Stelle."
+        case 4: "Dein Schlaf war solide und du fühlst dich leicht. Eine aktive Einheit passt heute gut."
+        case 3: "Deine Erholung liegt im persönlichen Bereich. Eine ausgewogene Mischung aus Aktivität und Pausen passt gut."
+        case 1: "Deine Nacht war ordentlich, dein Gefühl braucht etwas mehr Raum. Sanfte Bewegung reicht heute aus."
+        case 0: "Hör auf deinen Körper. Halte den Tag leicht und setze Erholung an erste Stelle."
         default: "Schlaf und Erholung sind stabil. Ein Spaziergang oder lockere Bewegung kann dir heute guttun."
         }
     }

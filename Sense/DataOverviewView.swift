@@ -73,7 +73,7 @@ struct DataOverviewView: View {
                 SettingsView()
             }
         }
-        .tint(.indigo)
+        .tint(.accentColor)
     }
 
     private var header: some View {

@@ -16,7 +16,7 @@ struct ContentView: View {
                 .tabItem { Label("Daten", systemImage: "chart.xyaxis.line") }
                 .tag(AppTab.data)
         }
-        .tint(.indigo)
+        .tint(.accentColor)
         .preferredColorScheme(colorScheme)
     }
 

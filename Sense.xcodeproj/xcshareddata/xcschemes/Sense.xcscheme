@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "000000000000000100000000"
-               BuildableName = "healthy.app"
-               BlueprintName = "Healthy"
+               BuildableName = "Sense.app"
+               BlueprintName = "Sense"
                ReferencedContainer = "container:Sense.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000100000000"
-            BuildableName = "healthy.app"
-            BlueprintName = "Healthy"
+            BuildableName = "Sense.app"
+            BlueprintName = "Sense"
             ReferencedContainer = "container:Sense.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -63,8 +63,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000100000000"
-            BuildableName = "healthy.app"
-            BlueprintName = "Healthy"
+            BuildableName = "Sense.app"
+            BlueprintName = "Sense"
             ReferencedContainer = "container:Sense.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
